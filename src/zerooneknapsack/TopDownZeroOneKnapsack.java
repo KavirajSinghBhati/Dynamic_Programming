@@ -7,6 +7,7 @@ public class TopDownZeroOneKnapsack {
         int n = 3, W = 50;
         int maximumProfit = knapsack(wt, val, W, n);
         System.out.println("Maximum profit: " + maximumProfit);
+        System.out.println("Maximum profit using optimized approach: " + knapsackOptimized(wt, val, W, n));
     }
 
     static int knapsack(int[] wt, int[] val, int W, int n) {
@@ -28,5 +29,18 @@ public class TopDownZeroOneKnapsack {
         }
 
         return t[n][W];
+    }
+
+    static int knapsackOptimized(int[] wt, int[] val, int W, int n) {
+        if (n == 0 || W == 0)
+            return 0;
+        int[] t = new int[W + 1];
+        for (int i = 1; i < n + 1; i++) {
+            for (int j = W; j >= 0; j--) {
+                if (wt[i - 1] <= j)
+                    t[j] = Math.max(t[j], t[j - wt[i - 1]] + val[i - 1]);
+            }
+        }
+        return t[W];
     }
 }
