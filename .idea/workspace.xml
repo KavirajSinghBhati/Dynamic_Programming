@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dee7c05-ef9b-4864-ba47-2a84ace3ef8e" name="Changes" comment="subset sum memoized solution">
-      <change afterPath="$PROJECT_DIR$/src/zerooneknapsack/variations/subsetsum/SubsetSumTopDown.java" afterDir="false" />
+    <list default="true" id="9dee7c05-ef9b-4864-ba47-2a84ace3ef8e" name="Changes" comment="subset sum top down dp solution">
+      <change afterPath="$PROJECT_DIR$/src/zerooneknapsack/variations/equalsumpartition/EqualSumPartitionRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +35,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SubsetSumTopDown">
-    <configuration name="MemoizedZeroOneKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zerooneknapsack.MemoizedZeroOneKnapsack" />
+  <component name="RunManager" selected="Application.EqualSumPartitionRecursive">
+    <configuration name="EqualSumPartitionRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zerooneknapsack.variations.equalsumpartition.EqualSumPartitionRecursive" />
       <module name="Dynamic_Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zerooneknapsack.*" />
+          <option name="PATTERN" value="zerooneknapsack.variations.equalsumpartition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EqualSumPartitionRecursive" />
         <item itemvalue="Application.SubsetSumTopDown" />
         <item itemvalue="Application.SubsetSumMemoized" />
         <item itemvalue="Application.SubsetSumRecursive" />
         <item itemvalue="Application.TopDownZeroOneKnapsack" />
-        <item itemvalue="Application.MemoizedZeroOneKnapsack" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657601810380</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="subset sum top down dp solution">
+      <created>1657602213316</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657602213316</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +198,7 @@
     <MESSAGE value="top down solution for 0-1 knapsack optimized space complexity" />
     <MESSAGE value="subset sum recursive solution" />
     <MESSAGE value="subset sum memoized solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="subset sum memoized solution" />
+    <MESSAGE value="subset sum top down dp solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="subset sum top down dp solution" />
   </component>
 </project>
