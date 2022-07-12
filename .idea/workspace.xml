@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9dee7c05-ef9b-4864-ba47-2a84ace3ef8e" name="Changes" comment="top down solution for 0-1 knapsack optimized space complexity">
-      <change afterPath="$PROJECT_DIR$/src/zerooneknapsack/variations/subsetsum/SubsetSumRecursive.java" afterDir="false" />
+    <list default="true" id="9dee7c05-ef9b-4864-ba47-2a84ace3ef8e" name="Changes" comment="subset sum recursive solution">
+      <change afterPath="$PROJECT_DIR$/src/zerooneknapsack/variations/subsetsum/SubsetSumMemoized.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SubsetSumRecursive">
+  <component name="RunManager" selected="Application.SubsetSumMemoized">
     <configuration name="MemoizedZeroOneKnapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zerooneknapsack.MemoizedZeroOneKnapsack" />
       <module name="Dynamic_Programming" />
@@ -55,6 +55,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="zerooneknapsack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubsetSumMemoized" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zerooneknapsack.variations.subsetsum.SubsetSumMemoized" />
+      <module name="Dynamic_Programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zerooneknapsack.variations.subsetsum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubsetSumMemoized" />
         <item itemvalue="Application.SubsetSumRecursive" />
         <item itemvalue="Application.TopDownZeroOneKnapsack" />
         <item itemvalue="Application.MemoizedZeroOneKnapsack" />
@@ -141,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657563102637</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="subset sum recursive solution">
+      <created>1657601198972</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657601198972</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +182,7 @@
     <MESSAGE value="recursive memoized solution for 0-1 knapsack" />
     <MESSAGE value="top down solution for 0-1 knapsack" />
     <MESSAGE value="top down solution for 0-1 knapsack optimized space complexity" />
-    <option name="LAST_COMMIT_MESSAGE" value="top down solution for 0-1 knapsack optimized space complexity" />
+    <MESSAGE value="subset sum recursive solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="subset sum recursive solution" />
   </component>
 </project>
